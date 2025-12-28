@@ -1,1 +1,19 @@
-# nfc-test-wifi-login
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WLAN Login</title>
+</head>
+<body>
+  <h2>WLAN-Anmeldung erforderlich</h2>
+  <form>
+    <label>Benutzername:</label><br>
+    <input type="text"><br><br>
+    <label>Passwort:</label><br>
+    <input type="password"><br><br>
+    <button type="button" onclick="alert('Login fehlgeschlagen')">
+      Anmelden
+    </button>
+  </form>
+</body>
+</html>
